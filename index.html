@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-wrapper">
+    <main>
+      <div id="weather-display">
+        <div id="current-conditions">
+          <p id="temp"></p>
+          <p id="condition"></p>
+          <p id="location"></p>
+          <p id="high-low-feels"></p>
+          <p id="wind"></p>
+        </div>
+      </div>
+
+      <div id="weather-search">
+        <input type="text" name="location" placeholder="Enter location">
+        <label class="switch">
+          <input type="checkbox" id="unit">
+          <span class="slider round"></span>
+        </label>
+        <button>Get Weather</button>
+      </div>
+      
+    </main>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
